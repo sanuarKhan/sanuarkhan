@@ -17,15 +17,16 @@ function App({Component, pageProps,}) {
         transition={{ duration: 0.75 }}
         variants={{
           initialState:{
-            clipPpath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)"
-
+            
+            clipPath: "polygon(43% 1%, 54% 1%, 54% 100%, 42% 100%)"
           },
           animateState: {
-            cliPath: "polygon(35% 7%, 61% 5%, 65% 99%, 34% 100%)"
+            clipPath: "polygon(1% 0, 100% 0, 100% 100%, 0% 100%)"
+
 
           },
           exitState : {
-            clipPath: "polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%"
+            clipPath: "polygon(0 0, 100% 1%, 100% 100%, 0 100%)"
 
           }
         }}

@@ -1,14 +1,24 @@
-
+import { motion } from "framer-motion";
+import Image from "next/image";
+import { useInView } from "react-intersection-observer";
 const Works = () => {
+  const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
   return (
+
+    
     <section id="works" className="bg-gray-100 py-20 bg-gradient">
-      <div className="container mx-auto">
+      <motion.div ref={ref}
+  initial={{ opacity: 0 }}
+  animate={{ opacity: inView ? 1 : 0 ,
+  y: inView ? 0: '50vh'}}
+  transition={{ duration: 1 }} className="container mx-auto">
         <h2 className="text-4xl font-bold text-center">My Work</h2>
         <div className="flex flex-wrap justify-center mt-10">
           <div className="w-full md:w-1/3 p-3 scale-up-top">
             <div className="bg-white rounded-lg shadow-lg">
               <a href="#" className="block relative h-48 rounded overflow-hidden">
-                <img alt="Work 1" className="object-cover object-center w-full h-full block" src="/images/perfect-Picture.png" />
+                <Image alt="Work 1" className="object-cover object-center w-full h-full block"
+                 src="/images/perfect-Picture.png" width={500} height={500} />
               </a>
               <div className="mt-4 p-4">
                 <h3 className="text-gray-800 font-bold text-xl mb-2">Photography Blog</h3>
@@ -26,7 +36,7 @@ const Works = () => {
           <div className="w-full shadow-inset-bl scale-up-top md:w-1/3 p-3">
             <div className="bg-white rounded-lg shadow-lg">
               <a href="#" className="block relative h-48 rounded overflow-hidden">
-                <img alt="Work 2" className="object-cover object-center w-full h-full block" src="/images/React-App.png" />
+                <Image alt="Work 2" className="object-cover object-center w-full h-full block" width={1000} height={1000} src="/images/React-App.png" />
               </a>
               <div className="mt-4 p-4">
                 <h3 className="text-gray-800 font-bold text-xl mb-2">E-Commerce Templete</h3>
@@ -44,7 +54,7 @@ const Works = () => {
           <div className="w-full md:w-1/3 p-3 scale-up-top ">
             <div className="bg-white rounded-lg shadow-lg ">
               <a href="#" className="block relative h-48 rounded overflow-hidden">
-                <img alt="Work 3" className="object-cover object-center w-full h-full block" src="/images/e-commerce.png" />
+                <Image alt="Work 3" width={1000} height={1000} className="object-cover object-center w-full h-full block" src="/images/e-commerce.png" />
               </a>
               <div className="mt-4 p-4">
                 <h3 className="text-gray-800 font-bold text-xl mb-2">Project Title</h3>
@@ -60,7 +70,7 @@ const Works = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

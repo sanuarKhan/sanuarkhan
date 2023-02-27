@@ -16,7 +16,7 @@ const AboutMe = () => {
         <h2 className="text-3xl font-extrabold text-center text-gray-900 mb-8">
           About Me
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="  grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
           <Image
           src="/images/sanuar-khan.png"
@@ -24,14 +24,14 @@ const AboutMe = () => {
           width={300}
           height={300}
           objectFit="cover"
-          className="rounded-lg shadow-lg relative "
+          className=" rounded-lg shadow-lg relative "
             />
     
           </div>
           <div>
-            <p className="text-lg text-gray-500 leading-relaxed mb-4">
-              Hi, my name is Sanuar Khan and I'm a web developer based in remote job. I specialize in building responsive and performant web
-              applications using React and Node.js. I'm passionate about
+            <p className="  text-lg text-gray-500 leading-relaxed mb-4">
+              Hi, my name is Sanuar Khan and Im a web developer based in remote job. I specialize in building responsive and performant web
+              applications using React and Node.js. Im passionate about
               exploring new technologies and always striving to improve my
               skills.
             </p>

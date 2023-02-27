@@ -1,31 +1,18 @@
 
-import { motion, useAnimation } from 'framer-motion';
-import { useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaNodeJs, FaReact } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 const Skills = () => {
 
-  const { ref, inView } = useInView({
-    threshold: 0.2,
-  });
-  const animation = useAnimation();
-
-  useEffect(() => {
-    console.log("is" ,inView)
-    if (inView) {
-      animation.start({x: 0,
-      transition: {type: "spring", duration: 1, bounce: .3}});
-    }
-    if(!inView){
-      animation.start({x: '-100vw', opacity : .7,
-    transition: {type:'spring', duration : 1 , bounce : .3}})
-    }
-  }, [inView]);
+  const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
  
   return (
    
-    <div ref={ref} className="bg-gray-100 scale-up-top bg-gradient">
-      <motion.div animate= {animation} className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div  className="bg-gray-100 scale-up-top bg-gradient">
+      <motion.div ref={ref} initial={{ opacity: 0 }}
+  animate={{ opacity: inView ? 1 : 0 ,
+  y: inView ? 0: '50vh'}}
+  transition={{ duration: 1 }} className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Skills

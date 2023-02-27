@@ -8,7 +8,7 @@ function About() {
     <div>
         <Navbar />
 
-        <Header name="Anout Us"/>
+        <Header name="About Us"/>
 
 
         <div className="mt-10">
