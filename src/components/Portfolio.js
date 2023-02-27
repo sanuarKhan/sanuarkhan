@@ -54,7 +54,7 @@ const Works = () => {
           <div className="w-full md:w-1/3 p-3 scale-up-top ">
             <div className="bg-white rounded-lg shadow-lg ">
               <a href="#" className="block relative h-48 rounded overflow-hidden">
-                <Image alt="Work 3" width={1000} height={1000} className="object-cover object-center w-full h-full block" src="/images/e-commerce.png" />
+                <Image alt="Work 3" width={1000} height={1000} className="object-cover object-center w-full h-full block" src="/images/E-commerce.png" />
               </a>
               <div className="mt-4 p-4">
                 <h3 className="text-gray-800 font-bold text-xl mb-2">Project Title</h3>
