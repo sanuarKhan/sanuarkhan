@@ -1,16 +1,13 @@
-import AboutMe from '@/components/AboutMe';
-import Footer from '@/components/Footer';
-import Hero from '@/components/Hero';
-import Navbar from '@/components/Navbar';
-import Works from '@/components/Portfolio';
-import Skills from '@/components/Skills';
+import AboutMe from "@/components/AboutMe";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import Works from "@/components/Portfolio";
+import Skills from "@/components/Skills";
 
-import Head from 'next/head';
-
+import Head from "next/head";
 
 const Home = () => {
- 
-
   return (
     <div>
       <Head>
@@ -20,24 +17,18 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className=' container bg-gradient-to-r from-purple-400 to-blue-500'>
+      <div className=" bg-gradient-to-r from-purple-400 to-blue-500">
         <Navbar />
-        <main className="container mx-auto">
+        <main className="">
           <Hero />
           <AboutMe />
           <Works />
           <Skills />
-          
-          </main>
+        </main>
         <Footer />
+      </div>
     </div>
-    
-
-  </div>
   );
-    
-    
 };
 
 export default Home;
-
