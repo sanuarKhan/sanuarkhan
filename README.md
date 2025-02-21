@@ -1,6 +1,6 @@
 #### Watch it live here - [https://sanuarkhan.netlify.app/](https://sanuarkhan.netlify.app/)
 
-yeahh - THANK ME LATER : CONTACT ME LINKEDIN </> @sanuar-khanwdx </>
+
 
 ### 👋 Welcome to My Digital Space!
 
