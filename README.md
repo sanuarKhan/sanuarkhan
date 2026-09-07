@@ -1,53 +1,62 @@
-#### Watch it live here - [https://sanuarkhan.netlify.app/](https://sanuarkhan.netlify.app/)
+# Hey, I'm Sanuar Khan 👋
 
-
-
-### 👋 Welcome to My Digital Space!
-
-I'm **Sanuar Khan**, a passionate **Full-Stack Web Developer (MERN)** 🚀, dedicated to crafting **responsive, scalable, and high-performance** web applications. I transform ideas into digital experiences with clean code and an eye for design.
+Full Stack Developer, AI Integration Practitioner & SaaS Founder based in Dhaka, Bangladesh.  
+I build with the MERN stack and LLMs — and I ship things that actually work.
 
 ---
 
-## 🌟 **My Services**
+## 🚀 What I'm building
 
-### 🖥️ **Web Development**
+**[dmenu.online](https://dmenu.online)** — Real-time Restaurant Management SaaS  
+QR ordering · Kitchen Order Tokens · Auto billing · Stock management · Sales dashboard  
+`MongoDB` `Express.js` `React` `Node.js` `WebSockets` · Built solo · Live & in beta
 
-✔️ Full-Stack Web Apps (MERN)  
-✔️ Custom Web Solutions  
-✔️ API Development & Integration  
-✔️ E-Commerce Development
-
-### 🎨 **UI/UX & Figma Conversion**
-
-✔️ Pixel-Perfect Figma to Code  
-✔️ Interactive & Modern UI  
-✔️ Mobile-Responsive Designs
-
-### 🛠️ **Technical Assistance**
-
-✔️ Bug Fixing & Debugging  
-✔️ Performance Optimization  
-✔️ Code Review & Refactoring  
-✔️ Deployment & Hosting Assistance
+**dmenu AI Lead Agent** *(in progress)*  
+An AI agent that collects restaurant leads autonomously and notifies me via Telegram for approval before sending — human-in-the-loop design.  
+`LangChain` `AI Agents` `Telegram API`
 
 ---
 
-## 🚀 **Why Work With Me?**
+## 🤖 AI Integration
 
-- ✅ **Client-Focused** – Your satisfaction is my priority!
-- 🎯 **Detail-Oriented** – Clean, scalable, and maintainable code.
-- 🕒 **Timely Delivery** – Meeting deadlines without compromise.
-- 🤝 **Long-Term Support** – I don't just build, I assist!
+**PDF Chatbot** — Upload any PDF, ask questions, get context-aware answers  
+`LangChain` `RAG` `Vector Search` `Prompt Engineering` `Gemini API`
+
+**WhatsApp AI Customer Support Bot** — Handles FAQs, routes complex queries  
+`LangChain` `Grok API` `WhatsApp API`
+
+7-day structured AI integration practice → [`ai-integrator`](https://github.com/sanuar-khandx/ai-integrator) repo with daily branches
 
 ---
 
-## 📬 **Let's Connect!**
+## 🛠 Tech Stack
 
-🌐 [Portfolio Website](#)  
-💼 [Upwork Profile](https://www.upwork.com/freelancers/~014d116aa11aa0b1ad?mp_source=share)  
-🐦 [Twitter](https://x.com/Sanuarkhanwdx)  
-🔗 [LinkedIn](https://www.linkedin.com/in/sanuar-khanwdx/)  
-👨‍💻 [GitHub](https://github.com/sanuarKhan)  
-📧 **Email:** sanuarkhan220@gmail.com
+**Frontend:** React.js, Next.js, TanStack Query, Zustand, Redux  
+**Backend:** Node.js, Express.js, REST APIs, WebSockets  
+**AI & LLM:** LangChain, RAG, Vector Search, Prompt Engineering, OpenAI API, Claude API, Gemini API  
+**Databases:** MongoDB, PostgreSQL, Prisma ORM, NeonDB  
+**Tools:** Git, Docker, AWS, Linux, Postman
 
-📩 **Got a project? Let's discuss!** Feel free to **DM me** or send an email. I'm excited to collaborate and bring your ideas to life! 🎯🔥
+---
+
+## 💼 Experience
+
+- **Full Stack Developer Intern** — Itransition Group, USA (Remote) · 2025
+- **Lead Web Developer** — Sakura Trade Ltd, Japan (Remote) · 2023
+- **Shopify Web Designer** — Freelance, USA · 2022
+
+---
+
+## 🎓 Background
+
+- MA TESOL — University of Dhaka *(postgraduate, 2025)*
+- BA ESOL — University of Dhaka *(graduated)*
+- Diploma in MERN Stack Web Development *(1-year, certified)*
+
+Strong English communication — written and verbal. Remote-ready.
+
+---
+
+## 📬 Let's connect
+
+[LinkedIn](https://linkedin.com/in/sanuar-khandx) · [dmenu.online](https://dmenu.online) · devcraftwithkhan@gmail.com
