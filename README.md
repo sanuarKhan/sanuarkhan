@@ -59,4 +59,4 @@ Strong English communication — written and verbal. Remote-ready.
 
 ## 📬 Let's connect
 
-[LinkedIn](https://linkedin.com/in/sanuar-khandx) · [dmenu.online](https://dmenu.online) · devcraftwithkhan@gmail.com
+[LinkedIn](https://linkedin.com/in/sanuar-khandx) · [dmenu.online](https://dmenu.online) · sanuarkhan220@gmail.com
